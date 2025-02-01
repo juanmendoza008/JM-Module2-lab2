@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>  
+
+    </head>
+
+    <body> 
+        <h1> Coin Flip</h1>
+        <button onclick="flipCoin()"> Flip Coin</button>
+        <div id="result"></div>
+
+        <script>
+            const storeResults = [];
+            function flipCoin() {
+                const result = Math.random() < 0.5 ? "Heads" : "Tails";
+                storeResults.push(results);
+                const updatedResults = storeResults.join(", ");
+
+                document.getElementById("results").innerText = updateResults;
+            }
+
+
+
+
+        </script>
+
+
+        <!-- 
+            // COIN FLIP EXTRA ACTIVITY
+            // AC1: add a button, which triggers a coin flip THEN displays the result on screen.
+            // (1 click = 1 flip, so each click should add to the length of the displayed value)      // AC2: add a radio button group that allows the user to select from a game of 5 flips or 10 flips.
+            // WHEN the value stored in the array reaches the length of the game number (5 or 10) then also display what is the winner (heads or tails)      // AC3: Add players to the game. Input field for player name and which value they represent. THEN when array of results match the number of game flips (5 or 10)
+            // then display a message to user to say which players won the game.
+        --> 
+// vdif come 
+
+
+
+
+    </body>
+</html>

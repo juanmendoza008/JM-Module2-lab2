@@ -1,0 +1,19 @@
+
+.class-selector {}
+
+#id-selector {}
+
+div /* type selector */ {}
+
+input[type] {} /* attribute selector - inputs with defined type attribute */
+
+a[title="institute of data"] {} /* attribute selector*/
+
+* {} /* universal selector */
+
+div.class-selector#id-selector {} /* specific selector matches type, class and id */
+
+h1, 
+h2, 
+h3, 
+h4 {} /* selects multiple heading elements */

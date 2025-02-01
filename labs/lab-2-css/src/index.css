@@ -1,0 +1,126 @@
+/* I. Selectors */
+/* Put styles for questions 1.1, 1.2, 1.3 and 1.4 here */
+
+article {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid black;    
+}
+
+.style-me1 {
+    color: red;
+}
+
+#style-me2 {
+    color: blue;
+}
+
+.style-me1 #style-me2 {
+    color: purple;
+}
+
+/* Put styles for questions 2.1 and 2.2 here */
+.my-children-are-styled p {
+    background-color: red;
+}
+
+.my-descendants-are-styled > p {
+    background: lightgreen;
+}
+
+
+/* II. Box model and common properties */
+/* Put styles for questions 1-8 here */
+
+.box {
+    background-color: lightblue;
+    margin: 20px;
+    padding: 20px 20px 10px 10px;
+    width: 90%;
+    height: 120px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    overflow: auto;
+    outline: 10px yellow solid;
+    border-radius: 5%;
+    background-image: url("assets/images/img1.png");
+    background-size: cover;
+}
+
+/* III. Positioning */
+/* Put styles for questions 1-3 here */
+.position-absolute {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    background-color: lightgreen;
+}
+
+.position-relative {
+    position: relative;
+    background-color: lightcoral;
+}
+
+.position-sticky {
+    position: sticky;
+    top: 0;
+    background-color: lightblue;
+}
+
+/* IV. Styling text */
+/* Put styles for questions 1-10 here */
+.text-style {
+    color: chocolate;
+    font-size: 20px;
+    line-height: 3;
+    font-weight: bold 200;
+
+}
+
+.roboto {
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: small;
+  }
+
+/* V. Styling links */
+/* Put styles for questions 1-3 here */
+a:link {
+        color: blue;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+        text-decoration: underline;
+    }
+a:visited {
+        color: red;
+    }
+a:hover {
+        color: green;
+    }
+a:active {
+        color: yellow;
+    }
+a:focus {
+        color: purple;
+    }
+
+/* VI. calc() */
+/* Put styles for questions 1-3 here */
+
+.calc-style {
+    width: calc(100vw - 100px);
+    background-color: lightpink;
+
+}
+
+.fixed-width-col{
+    width: 350px;
+    display: inline-block;
+}
+
+.fluid-col{
+    display: inline-block;
+    background-color: lightblue;
+}
